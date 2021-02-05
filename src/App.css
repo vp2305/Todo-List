@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+}
+.MuiInputBase-input:focus {
+  color: white;
+  font-family: cursive;
+}
+
+.MuiButton-label {
+  color: white;
+}
+
+.MuiInputBase-input MuiInput-input {
+  color: white;
+}
+
+label.MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated {
+  color: white;
+}

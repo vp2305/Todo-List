@@ -1,0 +1,53 @@
+.input__container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input__container > button {
+  justify-content: start;
+}
+
+.Logout__option {
+  display: flex;
+  align-items: center;
+}
+
+.logout__logo {
+  margin-right: 20px;
+}
+
+.input__container > button {
+  align-items: center;
+}
+.task_line {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: cursive;
+}
+
+.remove__task {
+  height: 100%;
+}
+
+.user__homeIcon {
+  margin-right: 10%;
+  align-content: center;
+}
+
+.user__calenderIcon {
+  margin-right: 10%;
+  align-content: center;
+}
+
+.user__starIcon {
+  margin-right: 10%;
+  align-content: center;
+}
+
+.user__class {
+  margin-right: 10%;
+  align-content: center;
+}

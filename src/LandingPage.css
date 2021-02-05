@@ -1,0 +1,10 @@
+.landingPage__image {
+  object-fit: contain;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -999999;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}

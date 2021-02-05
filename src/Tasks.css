@@ -1,0 +1,36 @@
+.input__container {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.background__image {
+  object-fit: contain;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -999999;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.8;
+}
+
+.input__container > button {
+  justify-content: start;
+}
+
+.input__container > button {
+  align-items: center;
+}
+.task_line,
+.task_line:hover {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.task_line:hover {
+  transform: scale(1.025);
+}

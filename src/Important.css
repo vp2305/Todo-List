@@ -1,0 +1,13 @@
+.input__container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input__container > button {
+  justify-content: start;
+}
+
+.input__container > button {
+  align-items: center;
+}
